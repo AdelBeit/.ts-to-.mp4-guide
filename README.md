@@ -29,11 +29,11 @@ Navigate to the folder containing all the .ts files
 
 Open the command prompt in the same folder as all of your .ts files and type this command:
 
-| type *.ts > video.mp4 |
+  | type *.ts > video.mp4 |
 
 If you have a Mac or Linux use this command:
 
-| cat *.ts > video.mp4  |
+  | cat *.ts > video.mp4  |
 
 ## Step 4: Convert the .ts file to an .mp4 file
 
@@ -41,7 +41,7 @@ Install ffmpeg
 
 Open command prompt/terminal in the same folder as the big .ts file and run this command:
 
-ffmpeg -i video.ts -bsf:a aac_adtstoasc -acodec copy -vcodec copy video.mp4
+  ffmpeg -i video.ts -bsf:a aac_adtstoasc -acodec copy -vcodec copy video.mp4
 
 and you're done!
 
