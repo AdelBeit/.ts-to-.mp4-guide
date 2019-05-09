@@ -1,6 +1,8 @@
 # how to grab .ts files from a video stream and convert them into an mp4 file
 
-## Step 1: Get .ts URL
+
+
+## 1) Get .ts URL
 
 Head over to your favorite streaming site. Open developer tools in whatever browser you're using. 
 
@@ -8,7 +10,9 @@ Find the link to the .ts file in the network monitor of your developer tools
 
 ![devtools](/img/dev-tools.PNG)
 
-## Step 2: Download all .ts files
+
+
+## 2) Download all .ts files
 Copy the link. Find the segment number in the link.
 
 Open up main.py
@@ -21,7 +25,9 @@ Run the main.py file (using Terminal or Command prompt), note it's written in Py
 
 P.S. use pip to install grequest and request libraries. 
 
-## Step 3: Combine all .ts files into one
+
+
+## 3) Combine all .ts files into one
 
 You should have a bunch of .ts file after the python file has finnished downloading.
 
@@ -34,8 +40,10 @@ Open the command prompt in the same folder as all of your .ts files and type thi
 If you have a Mac or Linux use this command:
 
   | cat *.ts > video.mp4  |
+  
+  
 
-## Step 4: Convert the .ts file to an .mp4 file
+## 4) Convert the .ts file to an .mp4 file
 
 Install ffmpeg
 
