@@ -4,7 +4,7 @@
 Head over to your favorite streaming site. Open developer tools in whatever browser you're using. 
 Find the link to the .ts file in the network monitor of your developer tools (Figure 1)
 
-[devtools](/img/dev-tools.PNG)
+![devtools](/img/dev-tools.PNG)
 
 ## Step 2: Download all .ts files
 Copy the link. Find the segment number in the link.
