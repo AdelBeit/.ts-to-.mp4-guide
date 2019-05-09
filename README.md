@@ -1,10 +1,9 @@
 # This guide will demonstrate how to grab .ts file links from a stream and combine all the .ts files into a single .mp4 file
-======
 
 ## Step 1: Get .ts URL
 Head over to your favorite streaming site. Open developer tools in whatever browser you're using. 
 Find the link to the .ts file in the network monitor of your developer tools (Figure 1)
-[[../img/dev-tools.PNG|alt=devtools]]
+[devtools](/img/dev-tools.PNG)
 
 ## Step 2: Download all .ts files
 Copy the link. Find the segment number in the link.
