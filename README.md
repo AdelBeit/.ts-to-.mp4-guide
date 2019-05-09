@@ -1,4 +1,4 @@
-# Grab .ts files from a video stream and convert them into an mp4 file
+# how to grab .ts files from a video stream and convert them into an mp4 file
 
 ## Step 1: Get .ts URL
 Head over to your favorite streaming site. Open developer tools in whatever browser you're using. 
