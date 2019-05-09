@@ -53,3 +53,5 @@ Open command prompt/terminal in the same folder as the big .ts file and run this
 
 and you're done!
 
+
+P.S. I'll probably make a GUI for this and automate all of it later. But feel free to do it yourself and make a pull request :)
