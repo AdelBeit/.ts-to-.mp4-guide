@@ -2,7 +2,7 @@
 
 ## Step 1: Get .ts URL
 Head over to your favorite streaming site. Open developer tools in whatever browser you're using. 
-Find the link to the .ts file in the network monitor of your developer tools (Figure 1)
+Find the link to the .ts file in the network monitor of your developer tools
 
 ![devtools](/img/dev-tools.PNG)
 
